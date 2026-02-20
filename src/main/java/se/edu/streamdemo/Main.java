@@ -23,6 +23,10 @@ public class Main {
 
     }
 
+    private static void printWelcomeMessage() {
+        System.out.println("Welcome to Task manager (using streams)");
+    }
+
     private static int countDeadlines(ArrayList<Task> tasksData) {
         int count = 0;
         for (Task t : tasksData) {
